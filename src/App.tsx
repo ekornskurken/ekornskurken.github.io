@@ -51,16 +51,22 @@ function App() {
         href="mailto:nic@starberry.no"
         className="sub-header"
         children="nic@starberry.no"
+        target="_blank"
+        rel="noreferrer"
       />
       <a
         href="https://github.com/czd"
         className="bottom-left"
         children="github/czd"
+        target="_blank"
+        rel="noreferrer"
       />
       <a
         href="https://sketchfab.com/bastienBGR"
         className="bottom-right"
         children="Art by Bastien Genbrugge"
+        target="_blank"
+        rel="noreferrer"
       />
       {/* <a href="https://github.com/pmndrs/react-three-fiber" className="bottom-left" children="@react-three/fiber" /> */}
     </>
