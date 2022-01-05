@@ -33,9 +33,6 @@ h1 {
   line-height: 0.6em;
   letter-spacing: -2px;
   text-align: left;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
 }
 
 h1 > span, h1 > a {
@@ -96,9 +93,6 @@ a.sub-header {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 1em;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
 }
 
 a.top-left {
