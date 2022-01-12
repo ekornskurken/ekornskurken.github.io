@@ -16,14 +16,14 @@ function App() {
       <Canvas dpr={[1.5, 2]} linear shadows>
         {/* <fog attach="fog" args={['#272730', 16, 30]} /> */}
         <ambientLight intensity={0.75} />
-        <PerspectiveCamera makeDefault position={[150, 0, 200]} fov={75}>
-          <pointLight intensity={1} position={[51.64, 0, -129.1]} />
+        <PerspectiveCamera makeDefault position={[0, -10, 0]} fov={75}>
+          <pointLight intensity={1} position={[0, 0, 0]} />
           <spotLight
             castShadow
             intensity={2.25}
             angle={0.2}
             penumbra={1}
-            position={[-25, 20, -15]}
+            position={[-10, 20, -15]}
             shadow-mapSize={[1024, 1024]}
             shadow-bias={-0.0001}
           />
@@ -33,8 +33,8 @@ function App() {
         </Suspense>
         <OrbitControls
           autoRotate={true}
-          enablePan={false}
-          enableZoom={false}
+          enablePan={true}
+          enableZoom={true}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
@@ -43,28 +43,28 @@ function App() {
       <div className="layer" />
       <Loader />
       <h1>
-        starberry <span style={{ fontSize: '0.4em' }}>by</span>
+        Ekornskurken<span style={{ fontSize: '0.4em' }}>is</span>
         <br />
-        <span>nic</span>
+        <span>SUS!</span>
       </h1>
-      <a
+      {/* <a
         href="mailto:nic@starberry.no"
         className="sub-header"
         children="nic@starberry.no"
         target="_blank"
         rel="noreferrer"
-      />
+      /> */}
       <a
-        href="https://github.com/czd"
+        href="https://github.com/ekornskurken"
         className="bottom-left"
-        children="github/czd"
+        children="github/ekornskurken"
         target="_blank"
         rel="noreferrer"
       />
       <a
-        href="https://sketchfab.com/bastienBGR"
+        href="https://sketchfab.com/MatMADNESS"
         className="bottom-right"
-        children="Art by Bastien Genbrugge"
+        children="Art by MatMADNESS"
         target="_blank"
         rel="noreferrer"
       />
