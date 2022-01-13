@@ -43,7 +43,7 @@ function App() {
       <div className="layer" />
       <Loader />
       <h1>
-        Ask <span style={{ fontSize: '0.4em' }}>is</span>
+        Snegle <span style={{ fontSize: '0.4em' }}>is</span>
         <br />
         <span>SUS!</span>
       </h1>
