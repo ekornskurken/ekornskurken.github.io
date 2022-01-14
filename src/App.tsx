@@ -62,9 +62,9 @@ function App() {
         rel="noreferrer"
       />
       <a
-        href="https://sketchfab.com/MatMADNESS"
+        href="https://skfb.ly/6VEEJ"
         className="bottom-right"
-        children="Art by MatMADNESS"
+        children='"Among Us Astronaut - Clay" by MatMADNESS'
         target="_blank"
         rel="noreferrer"
       />
