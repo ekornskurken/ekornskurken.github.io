@@ -16,7 +16,7 @@ function App() {
       <Canvas dpr={[1.5, 2]} linear shadows>
         {/* <fog attach="fog" args={['#272730', 16, 30]} /> */}
         <ambientLight intensity={0.75} />
-        <PerspectiveCamera makeDefault position={[0, -10, 0]} fov={75}>
+        <PerspectiveCamera makeDefault position={[2, 1, 0]} fov={75}>
           <pointLight intensity={1} position={[0, 0, 0]} />
           <spotLight
             castShadow
@@ -43,7 +43,7 @@ function App() {
       <div className="layer" />
       <Loader />
       <h1>
-        Snegle <span style={{ fontSize: '0.4em' }}>is</span>
+        Mathias & Adam <span style={{ fontSize: '0.4em' }}>are</span>
         <br />
         <span>SUS!</span>
       </h1>
