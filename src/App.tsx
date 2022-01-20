@@ -43,7 +43,7 @@ function App() {
       <div className="layer" />
       <Loader />
       <h1>
-        Mathias & Adam <span style={{ fontSize: '0.4em' }}>are</span>
+        Eiganes Skole <span style={{ fontSize: '0.4em' }}>is</span>
         <br />
         <span>SUS!</span>
       </h1>
